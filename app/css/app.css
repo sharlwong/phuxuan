@@ -1,4 +1,38 @@
-/* app css stylesheet */
+/* App css stylesheet */
+
+/* Sound map */
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.soundmap{
+  background: url("../img/soundmap.jpg");
+  background-size: 100% 100%;
+  width: 1789px;
+  height: 700px;
+}
+
+.sound{
+  background-color: red;
+  width: 28px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.voice1{
+  margin-left: 250px;
+  padding-top: 250px;
+}
+
+.temple{
+  margin-top: 200px;
+  margin-left: 1350px;
+}
+
+/* Menu */
 
 .menu {
   list-style: none;
