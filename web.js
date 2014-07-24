@@ -1,3 +1,6 @@
 // web.js
 
-var DEFAULT_PORT = process.env.PORT || 8000;
+var express = require('express');
+var app = express();
+
+app.listen(process.env.PORT || 8000);
